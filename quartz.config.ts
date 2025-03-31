@@ -8,14 +8,14 @@ import * as Plugin from "./quartz/plugins"
  */
 const config: QuartzConfig = {
   configuration: {
-    pageTitle: "你好，NAS",
+    pageTitle: "NAS",
     pageTitleSuffix: "",
     enableSPA: true,
     enablePopovers: true,
     analytics: {
       provider: "plausible",
     },
-    locale: "zh_CN",
+    locale: "en_US",
     baseUrl: "nas.zjan.me",
     ignorePatterns: ["private", "templates", ".obsidian"],
     defaultDateType: "modified",
