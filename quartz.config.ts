@@ -15,7 +15,7 @@ const config: QuartzConfig = {
     analytics: {
       provider: "plausible",
     },
-    locale: "en_US",
+    locale: "zh-CN",
     baseUrl: "nas.zjan.me",
     ignorePatterns: ["private", "templates", ".obsidian"],
     defaultDateType: "modified",
